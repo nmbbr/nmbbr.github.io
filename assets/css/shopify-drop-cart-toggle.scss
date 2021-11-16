@@ -1,0 +1,12 @@
+---
+--- 
+
+.is-sticky.shopify-buy__cart-toggle{
+    border:3px solid blue;
+}
+
+.shopify-buy-frame.shopify-buy-frame--toggle.is-sticky.is-active{
+    border:3px solid red;
+    position: fixed;
+    top: 50px;
+}
