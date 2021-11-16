@@ -3,13 +3,15 @@ layout: wrapper
 title: test
 name: test
 permalink: /test/
+product-id: 7449460080865
+product-component-id: 1637031225779
 ---
 
 <!----------BBBB content section 1-------------->
 {% capture first-section %}
 
     Here is my first section content!
-
+    {{ page.productid }}
 {% endcapture %}
 <!----------EEEE content section 1-------------->
 
@@ -27,5 +29,5 @@ permalink: /test/
 
 
 <!----------BBBB include the template for multiple content insertions-------------->
-{% include template-trash.html %}
+{% include template-trash-2.html %}
 <!----------EEEE include the template for multiple content insertions-------------->
