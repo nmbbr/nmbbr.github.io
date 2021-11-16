@@ -1,5 +1,4 @@
 ---
-layout: shopify-product-page-wrapper
 title: test
 name: test
 permalink: /test/
@@ -18,6 +17,4 @@ Here is the second section!
 
 {% endcapture %}
 
-
-{% include shopify-product-page-wrapper.html %}
-
+{% include template-trash.html %}
