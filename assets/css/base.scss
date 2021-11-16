@@ -13,7 +13,7 @@
       ////
 /////////////////////////////////////
 body{
-    background: blue ;
+    background: red ;
   }
   h1{
     color:green;
@@ -22,15 +22,12 @@ body{
     color:purple;
   }
 /////////////////////////////////////
-  ////
-    ////
-      ////
-/////////////////////////////////////
-.big-wrapper{
+
+.big-wrapper {
   width: 100%;
   margin-left: 0 ;
-  background: $background-color-default ;
-  margin-top:60px;  //to clear header
+  background: orange ;
+  margin-top:60px; // to clear nav 
 }
 /////////////////////////////////////
   ////
@@ -41,7 +38,7 @@ body{
     ////
       ////
 /////////////////////////////////////
-.post-main-img-container{
+.post-main-img-container {
   border: 10px solid $border-color-default;
   box-sizing: border-box;
   width: 100%;
@@ -53,7 +50,7 @@ body{
     object-fit: contain;
   }
 }
-div.gallery-container{
+div.gallery-container {
   background: orange;
   div.thumbnail{
     border: 10px solid $border-color-default;
@@ -66,13 +63,6 @@ div.gallery-container{
   ////
     ////
       ////
-/////////////////////////////////////
-.big-wrapper{
-  width: 100%;
-  margin-left: 0 ;
-  background: $background-color-default ;
-  margin-top:100px;  //to clear header
-}
 /////////////////////////////////////
   ////
     ////
