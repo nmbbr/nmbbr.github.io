@@ -1,6 +1,8 @@
 ---
---- 
+# Front matter comment to ensure Jekyll properly reads file.
+---
 
+// Add your styles here
 /////// to do: alot of this can just
 /////// be entered in "_layouts/shopify-buybutton-template.html" 
 
@@ -9,7 +11,9 @@
 
 
 ///////////////////////////////////////////////// BBB imports
-@import '_sass/variables';
+// Imports
+@import "variables";
+
 ///////////////////////////////////////////////// EEE imports
   ////
     ////
