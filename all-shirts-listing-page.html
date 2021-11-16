@@ -9,14 +9,18 @@ permalink: /all-shirts/
 
 
 {% for short_sleeve in site.short_sleeves %}
+<a href="{{site.baseurl}}{{ short_sleeves.url }}">
   <!--<h2>{{ short_sleeve.name }}</h2>-->
   <p>{{ short_sleeve.content | markdownify }}</p>
+  </a>
 {% endfor %}
 
 
 
 
 {% for long_sleeve in site.long_sleeves %}
+<a href="{{site.baseurl}}{{ long_sleeves.url }}">
   <!--<h2>{{ long_sleeve.name }}</h2>-->
   <p>{{ long_sleeve.content | markdownify }}</p>
+</a>
 {% endfor %}
