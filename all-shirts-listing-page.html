@@ -5,7 +5,13 @@ permalink: /all-shirts/
 ---
 
 
+{% for long_sleeve in site.long_sleeves %}
+<a href="{{site.baseurl}}{{ long_sleeve.url }}">
+  <h2>{{ long_sleeve.name }}</h2>
+</a>
+  <p>{{ long_sleeve.content | markdownify }}</p>
 
+{% endfor %}
 
 
 {% for short_sleeve in site.short_sleeves %}
@@ -19,10 +25,3 @@ permalink: /all-shirts/
 
 
 
-{% for long_sleeve in site.long_sleeves %}
-<a href="{{site.baseurl}}{{ long_sleeve.url }}">
-  <h2>{{ long_sleeve.name }}</h2>
-</a>
-  <p>{{ long_sleeve.content | markdownify }}</p>
-
-{% endfor %}
