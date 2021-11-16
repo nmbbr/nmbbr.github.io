@@ -21,6 +21,21 @@ body{
     ////
       ////
 /////////////////////////////////////
+.big-wrapper{
+  width: 100%;
+  margin-left: 0 ;
+  background: $background-color-default ;
+  margin-top:60px;  //to clear header
+}
+/////////////////////////////////////
+  ////
+    ////
+      ////
+/////////////////////////////////////
+  ////
+    ////
+      ////
+/////////////////////////////////////
 .post-main-img-container{
   border: 10px solid $border-color-default;
   box-sizing: border-box;
