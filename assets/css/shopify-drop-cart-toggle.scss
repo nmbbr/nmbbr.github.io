@@ -7,6 +7,26 @@
     ////
       ////
 /////////////////////////////////////
+.shopify-buy-frame{  
+    background: green !important;
+}
+.shopify-buy__frame{  
+    background: purple !important;
+}
+.shopify-buy-cart-wrapper{
+    background: orange !important;
+}
+.shopify-buy__cart {
+    background-color: red !important;
+}
+.shopify-buy__cart__header {
+    background-color:#00ff00 !important;
+}
+.shopify-buy-cart-wrapper.shopify-buy-frame.shopify-buy-frame--cart.is-active.is-visible.is-initialized {
+    background-color: red !important;
+}
+/////////////////////////////////////
+
 .is-sticky.shopify-buy__cart-toggle{
     border:3px solid blue;
 }
