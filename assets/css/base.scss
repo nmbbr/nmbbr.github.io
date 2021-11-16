@@ -74,52 +74,6 @@ $middle-breakpoint : 1230px ;
 }
 
 
-.topnav {
-  width:$sidebar-block-width; //mycusto
-  height:100%;
-  position: fixed; //mycusto
-  z-index:99;
-  top:0;
-  //bottom:0;
-  left:0;
-  z-index: 99;//mycusto
-  overflow: hidden;
-  background-color: $background-color;
-}
-/////////////////////////////////////
-.topnav a {
-  width:100%; //my-custo
-  float: left;
-  display: block;
-  color: $foreground-color;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/////////////////////////////////////
-.topnav a:hover {
-  background-color: $background-color;
-  color: black;
-}
-/////////////////////////////////////
-.topnav a.active {
-  //background-color: #04AA6D;
-  color: $active-link-color;
-}
-/////////////////////////////////////
-.topnav .icon {
-  display: none;
-  width:40px;
-  font-size: 150%;
-}
-.topnav.responsive {
-  .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-      content: "\f188";
-  }
-}
-
 ////////////////////////////////////////////////////////////////////////// BB BREAKPOINTS
 ////////////////////////////////////////////////////////////////////////// BB BREAKPOINTS
 ////////////////////////////////////////////////////////////////////////// BB BREAKPOINTS
