@@ -76,9 +76,11 @@ collections:
   staff_members:
     output: true
     
-#  magnets:
- #   output: true
- 
+  short_sleeves:
+    output: true
+
+  long_sleeves:
+    output: true
 
 
   # magnets:

@@ -1,0 +1,22 @@
+---
+layout: wrapper
+title: all shirts listing page
+permalink: /all-shirts/
+---
+
+
+
+
+
+{% for short_sleeve in site.short_sleeves %}
+  <h2>{{ short_sleeve.name }} - {{ short_sleeve.position }}</h2>
+  <p>{{ short_sleeve.content | markdownify }}</p>
+{% endfor %}
+
+
+
+
+{% for long_sleeve in site.long_sleeves %}
+  <h2>{{ long_sleeve.name }} - {{ long_sleeve.position }}</h2>
+  <p>{{ long_sleeve.content | markdownify }}</p>
+{% endfor %}
