@@ -21,7 +21,5 @@ product-component-id: 1637031225779
 
 
 <!----------BBBB include the template for multiple content insertions-------------->
-<!--{% include template-trash-2.html %}-->
 {% include shopify-buybutton-template.html %}
-
 <!----------EEEE include the template for multiple content insertions-------------->
