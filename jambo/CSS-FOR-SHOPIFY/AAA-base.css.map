@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAA;EAAC,UAAU,EAAE,UAAU;CAAG;;AAE3B,AAAA,aAAa,CAAC;EACZ,OAAO,EAAC,CAAC;CACV;;AACD,AAAA,WAAW,CAAC;EACV,MAAM,EAAC,eAAe;EACtB,OAAO,EAAC,CAAE;EACV,UAAU,EAAC,UAAU;CACtB;;AAED,sCAAsC;AACtC,AAAA,eAAe,CAAA;EACb,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,IAAI,CAAA,UAAU;CAC3B;;AACD,sCAAsC",
+    "sources": [
+        "../../../../../../Shopify/Number/CUSTOMIZE/Themes/Simple/SimpleChild/version_2/Assets/SCSS/base/AAA-base.scss"
+    ],
+    "names": [],
+    "file": "AAA-base.css"
+}
